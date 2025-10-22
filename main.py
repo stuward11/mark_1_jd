@@ -26,45 +26,7 @@ user_usage = {}
 # --- File Storage ---
 # Using non-sequential, randomized keys to prevent users from guessing the next part.
 FILES = {
-    # --- Season 1 ---
-    "got_s1p1_aK9sL2": { "file_ids": ["BQACAgUAAxkBAAMSaO3uOgfcHV-gX2wQnbVcNA9_CK4AAvgYAALD04BVgWp7S3LKzt42BA", "BQACAgUAAxkBAAMUaO3uOjTq2eCZpEvVoa_dFQw3Pr4AAgYZAALD04BVr0nJKIM1dAQ2BA", "BQACAgUAAxkBAAMQaO3uIGkpvqVbw9Yu01MiIAgrshYAAvkYAALD04BVg1Mk5bP0OIc2BA"] },
-    "got_s1p2_zX7vB5": { "file_ids": ["BQACAgUAAxkBAAMVaO3uOtbU1dzQ3k1vWTOuZGidnJYAAhUZAAJPzaBVDU-DO9elIz42BA", "BQACAgUAAxkBAAMWaO3uOr6fUjlrt3gm5m8XQlebScwAAiwcAAJPzahV_GO7u5OK-fA2BA", "BQACAgUAAxkBAAMXaO3uOqCjaGa1SRgcoU9GO_pPvgEAAjQcAAJPzahVefloxxauffk2BA"] },
-    "got_s1p3_nC6mJ8": { "file_ids": ["BQACAgUAAxkBAAMXaO3uOqCjaGa1SRgcoU9GO_pPvgEAAjQcAAJPzahVefloxxauffk2BA", "BQACAgUAAxkBAAMZaO3uOvSeuyprQD9t7H9Vxea_kQUAAj4cAAJPzahV5J4lUPqxuPc2BA", "BQACAgUAAxkBAAMaaO3uOkpH8UYpId9oAAG5zBYXZC8iAAJCHAACT82oVbGiCL3SaKrQNgQ","BQACAgUAAxkBAAMbaO3uOr_acPkUkv5XrnGH3AZPm-UAAkEcAAJPzahVsAVfBjjTtII2BA"] },
-
-    # --- Season 2 ---
-    "got_s2p1_pQ5fG1": { "file_ids": ["FILE_ID_FOR_S2_EP1", "FILE_ID_FOR_S2_EP2", "FILE_ID_FOR_S2_EP3"] },
-    "got_s2p2_kL4hT9": { "file_ids": ["FILE_ID_FOR_S2_EP4", "FILE_ID_FOR_S2_EP5", "FILE_ID_FOR_S2_EP6"] },
-    "got_s2p3_jM3sR7": { "file_ids": ["FILE_ID_FOR_S2_EP7", "FILE_ID_FOR_S2_EP8", "FILE_ID_FOR_S2_EP9", "FILE_ID_FOR_S2_EP10"] },
-
-    # --- Season 3 ---
-    "got_s3p1_yU2vE4": { "file_ids": ["FILE_ID_FOR_S3_EP1", "FILE_ID_FOR_S3_EP2", "FILE_ID_FOR_S3_EP3"] },
-    "got_s3p2_wA1zD3": { "file_ids": ["FILE_ID_FOR_S3_EP4", "FILE_ID_FOR_S3_EP5", "FILE_ID_FOR_S3_EP6"] },
-    "got_s3p3_sB9xQ2": { "file_ids": ["FILE_ID_FOR_S3_EP7", "FILE_ID_FOR_S3_EP8", "FILE_ID_FOR_S3_EP9", "FILE_ID_FOR_S3_EP10"] },
-
-    # --- Season 4 ---
-    "got_s4p1_rF8wP1": { "file_ids": ["FILE_ID_FOR_S4_EP1", "FILE_ID_FOR_S4_EP2", "FILE_ID_FOR_S4_EP3"] },
-    "got_s4p2_tG7vO9": { "file_ids": ["FILE_ID_FOR_S4_EP4", "FILE_ID_FOR_S4_EP5", "FILE_ID_FOR_S4_EP6"] },
-    "got_s4p3_uH6uN8": { "file_ids": ["FILE_ID_FOR_S4_EP7", "FILE_ID_FOR_S4_EP8", "FILE_ID_FOR_S4_EP9", "FILE_ID_FOR_S4_EP10"] },
-
-    # --- Season 5 ---
-    "got_s5p1_iJ5tM7": { "file_ids": ["FILE_ID_FOR_S5_EP1", "FILE_ID_FOR_S5_EP2", "FILE_ID_FOR_S5_EP3"] },
-    "got_s5p2_oK4sL6": { "file_ids": ["FILE_ID_FOR_S5_EP4", "FILE_ID_FOR_S5_EP5", "FILE_ID_FOR_S5_EP6"] },
-    "got_s5p3_pL3rK5": { "file_ids": ["FILE_ID_FOR_S5_EP7", "FILE_ID_FOR_S5_EP8", "FILE_ID_FOR_S5_EP9", "FILE_ID_FOR_S5_EP10"] },
-
-    # --- Season 6 ---
-    "got_s6p1_qM2qJ4": { "file_ids": ["FILE_ID_FOR_S6_EP1", "FILE_ID_FOR_S6_EP2", "FILE_ID_FOR_S6_EP3"] },
-    "got_s6p2_rN1pI3": { "file_ids": ["FILE_ID_FOR_S6_EP4", "FILE_ID_FOR_S6_EP5", "FILE_ID_FOR_S6_EP6"] },
-    "got_s6p3_sO9oH2": { "file_ids": ["FILE_ID_FOR_S6_EP7", "FILE_ID_FOR_S6_EP8", "FILE_ID_FOR_S6_EP9", "FILE_ID_FOR_S6_EP10"] },
-
-    # --- Season 7 ---
-    "got_s7p1_tP8nG1": { "file_ids": ["FILE_ID_FOR_S7_EP1", "FILE_ID_FOR_S7_EP2", "FILE_ID_FOR_S7_EP3"] },
-    "got_s7p2_uQ7mF9": { "file_ids": ["FILE_ID_FOR_S7_EP4", "FILE_ID_FOR_S7_EP5"] },
-    "got_s7p3_vR6lE8": { "file_ids": ["FILE_ID_FOR_S7_EP6", "FILE_ID_FOR_S7_EP7"] },
-
-    # --- Season 8 ---
-    "got_s8p1_wS5kD7": { "file_ids": ["FILE_ID_FOR_S8_EP1", "FILE_ID_FOR_S8_EP2"] },
-    "got_s8p2_xT4jC6": { "file_ids": ["FILE_ID_FOR_S8_EP3", "FILE_ID_FOR_S8_EP4"] },
-    "got_s8p3_yU3iB5": { "file_ids": ["FILE_ID_FOR_S8_EP5", "FILE_ID_FOR_S8_EP6"] },
+   
 }
 
 

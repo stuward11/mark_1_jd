@@ -3,7 +3,7 @@ name: Check Bot Status
 on:
   schedule:
     # Runs this check every 15 minutes
-    - cron: '*/7 * * * *'
+    - cron: '*/15 * * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -16,12 +16,9 @@ jobs:
         run: |
           # Make a request to the bot's URL and store the HTTP status code
           # The "|| true" part prevents the workflow from failing if it gets a 503 error
-          
-          # !!! IMPORTANT: Replace this URL with your bot's actual Render URL !!!
-          STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" "https://api.render.com/deploy/srv-d3j9klvfte5s73fko5t0?key=t4de94VOYcA" || true)
-          
+          STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" "https://mark-1-rdj.onrender.com" || true)
           echo "HTTP Status Code: $STATUS_CODE"
-          echo "status=$STATUS_CODE" >> $GITHUB_OUTPUT
+          echo "::set-output name=status::$STATUS_CODE"
           
       - name: Redeploy if the bot is down
         # This step only runs if the previous step's output (the status code) was 503

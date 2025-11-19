@@ -29,8 +29,12 @@ FILES = {
      "friends_with_benefits_720p_x4k8s": { 
         "file_ids": ["BQACAgIAAxkBAAMTaR3vhoqMG87PNqxxy0aJ7BFRuLkAAh45AAIsbNBITHGllCynaXY2BA"] 
     }
-    "friendsbenefit_480p":{
-    "file_ids":["BQACAgIAAxkBAAMJaR3bj47s0hIkhEC-Mg7TjweDmr8AAkopAAKCIEhImhaCsHYd2y82BA"]}
+    "friendsbenefit_480p_55ftr":{
+    "file_ids":["BQACAgIAAxkBAAMJaR3bj47s0hIkhEC-Mg7TjweDmr8AAkopAAKCIEhImhaCsHYd2y82BA"]
+}
+ "friendsbenefit_1080p_478dres":{
+    "file_ids":["BQACAgIAAxkBAAMVaR3w27RTrbGsvTOIe_HWjpcJ2XsAAqEoAAJYN4BIKqLBnGdJZQQ2BA"]
+
    
 }
 

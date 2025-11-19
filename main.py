@@ -26,7 +26,7 @@ user_usage = {}
 # --- File Storage ---
 # Using non-sequential, randomized keys to prevent users from guessing the next part.
 FILES = {
-     "friends_with_benefits_movie_x4k8s": { 
+     "friends_with_benefits_720p_x4k8s": { 
         "file_ids": ["BQACAgIAAxkBAAMJaR3bj47s0hIkhEC-Mg7TjweDmr8AAkopAAKCIEhImhaCsHYd2y82BA"] 
     }
    
